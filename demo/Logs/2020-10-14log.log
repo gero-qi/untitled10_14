@@ -1,0 +1,23 @@
+[2020-10-14 07:24:11,529]  base.py->findele line:14 [INFO]通过xpath定位，元素是// b[contains(., '火车')]
+[2020-10-14 07:24:12,636]  base.py->findele line:14 [INFO]通过id定位，元素是notice01
+[2020-10-14 07:28:39,552]  base.py->findele line:14 [INFO]通过xpath定位，元素是// b[contains(., '火车')]
+[2020-10-14 07:28:42,718]  base.py->findele line:14 [INFO]通过id定位，元素是notice01
+[2020-10-14 07:37:49,756]  base.py->findele line:14 [INFO]通过xpath定位，元素是// b[contains(., '火车')]
+[2020-10-14 07:37:52,724]  base.py->findele line:14 [INFO]通过id定位，元素是notice01
+[2020-10-14 07:37:55,918]  base.py->findele line:14 [INFO]通过id定位，元素是notice02
+[2020-10-14 07:39:35,262]  base.py->findele line:14 [INFO]通过xpath定位，元素是// b[contains(., '火车')]
+[2020-10-14 07:39:38,437]  base.py->findele line:14 [INFO]通过id定位，元素是notice01
+[2020-10-14 07:39:41,275]  base.py->findele line:14 [INFO]通过id定位，元素是notice02
+[2020-10-14 07:40:52,931]  base.py->findele line:14 [INFO]通过xpath定位，元素是// b[contains(., '火车')]
+[2020-10-14 07:40:55,838]  base.py->findele line:14 [INFO]通过id定位，元素是notice01
+[2020-10-14 07:40:59,256]  base.py->findele line:14 [INFO]通过id定位，元素是notice02
+[2020-10-14 07:41:01,769]  base.py->findele line:14 [INFO]通过id定位，元素是DdateObj
+[2020-10-14 07:43:17,977]  base.py->findele line:14 [INFO]通过xpath定位，元素是// b[contains(., '火车')]
+[2020-10-14 07:43:22,094]  base.py->findele line:14 [INFO]通过id定位，元素是notice01
+[2020-10-14 07:43:24,776]  base.py->findele line:14 [INFO]通过id定位，元素是notice02
+[2020-10-14 07:43:27,595]  base.py->findele line:14 [INFO]通过id定位，元素是DdateObj
+[2020-10-14 07:45:40,800]  base.py->findele line:14 [INFO]通过xpath定位，元素是// b[contains(., '火车')]
+[2020-10-14 07:45:43,684]  base.py->findele line:14 [INFO]通过id定位，元素是notice01
+[2020-10-14 07:45:46,393]  base.py->findele line:14 [INFO]通过id定位，元素是notice02
+[2020-10-14 07:45:48,911]  base.py->findele line:14 [INFO]通过id定位，元素是DdateObj
+[2020-10-14 07:45:51,720]  base.py->findele line:14 [INFO]通过id定位，元素是searchTicket

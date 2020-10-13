@@ -1,4 +1,7 @@
-import xlrd,os
+import xlrd, os
+
+from demo.common.function import project_path
+
 
 def read_excel(filename,index):
     #获取操作对象，打印单个表中的行数和列数
@@ -17,6 +20,6 @@ def read_excel(filename,index):
     return dic
 
 if __name__ == '__main__':
-    data=read_excel(os.path.split(os.path.realpath(__file__))[0].split('c')[0]+"data\\testdata.xlsx", 0)
+    data = read_excel(project_path()+"data\\testdata.xlsx", 0)
     print(data)
     print(data.get(1))
