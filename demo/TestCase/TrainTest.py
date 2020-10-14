@@ -41,4 +41,4 @@ class LogingTest(unittest.TestCase):
 
     # if __name__ == "__main__":
     # suiteTest = unittest.TestSuite()
-    # suiteTest.addTest(logingTest("test_02"))
+    # suiteTest.addTest(logingTest("test_02"))22
