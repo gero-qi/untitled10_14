@@ -2,7 +2,9 @@
 from selenium.webdriver.common.by import By
 import time
 from demo.base.base import Base
+
 from selenium import webdriver
+
 
 
 class SearchPage(Base):
@@ -11,7 +13,9 @@ class SearchPage(Base):
 
     # 查找火车按钮，点击
     def search_train(self):
+
         return self.findele(By.XPATH, "// b[contains(., '火车')]")
+
 
     # 查找出发地并输入
     def search_leave(self):

@@ -22,6 +22,7 @@ class LogingTest(unittest.TestCase):
         cls.driver.maximize_window()
 
     def test_02(self):
+
         sp = SearchPage(self.driver)
         # self.driver.find_element_by_xpath("// b[contains(., '火车')]").click()
         # self.driver.find_element(By.XPATH,"// b[contains(., '火车')]").click()
@@ -33,6 +34,10 @@ class LogingTest(unittest.TestCase):
     def tearDownClass(cls):
         cls.driver.close()
 
+    @classmethod
+    def tearDownClass(cls):
+        cls.driver = webdriver.Chrome()
+        cls.driver.close()
 
     # if __name__ == "__main__":
     # suiteTest = unittest.TestSuite()
