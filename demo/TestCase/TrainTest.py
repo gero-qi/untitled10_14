@@ -34,11 +34,6 @@ class LogingTest(unittest.TestCase):
     def tearDownClass(cls):
         cls.driver.close()
 
-    @classmethod
-    def tearDownClass(cls):
-        cls.driver = webdriver.Chrome()
-        cls.driver.close()
-
     # if __name__ == "__main__":
     # suiteTest = unittest.TestSuite()
     # suiteTest.addTest(logingTest("test_02"))22

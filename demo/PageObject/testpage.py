@@ -43,6 +43,9 @@ class SearchPage(Base):
         time.sleep(2)
         self.search_leave_time().send_keys(ltime)
         time.sleep(2)
-        self.search_button().click()
+        # 直接点击无效
+        # self.driver.find_element(By.ID, "searchTicket").click()
+        self.driver.execute_script("arguments[0].click();", self.search_button())
         time.sleep(8)
+        print(self.url())
         return self.url()

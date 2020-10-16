@@ -32,7 +32,7 @@ class TestTestpyjingyoutestpyjingyou():
         time.sleep(2)
         self.driver.find_element(By.ID, "notice01").send_keys("北京")
         time.sleep(2)
-        self.driver.find_element(By.ID, "DdateObj").send_keys("2020-09-19")
+        self.driver.find_element(By.ID, "DdateObj").send_keys("2020-10-19")
         time.sleep(2)
         self.driver.find_element(By.ID, "notice02").send_keys("合肥")
         time.sleep(2)

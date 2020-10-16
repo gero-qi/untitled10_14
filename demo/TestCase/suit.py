@@ -1,8 +1,7 @@
 import unittest
 import time
 
-from HTMLTestRunner.HTMLTestRunner import HTMLTestRunner
-
+from demo.HTMLTestRunner import HTMLTestRunner
 from demo.common.function import project_path
 
 if __name__ == '__main__':
